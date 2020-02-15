@@ -1,0 +1,26 @@
+#DjangoUpimg {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+    background-color: aliceblue;
+    z-index: 1988;
+}
+.closebtn {
+    max-height: 20px;
+    margin-top: -5px;
+    margin-left: -15px;
+}
+.selectimg {
+    border:3px solid slategray;
+}
+.selectpath {
+    cursor: pointer;
+}
+.selectpathback {
+    background-color: darkgray;
+}
+.servwin {
+    max-height: calc(37.5rem - 4.125rem);
+    overflow-y: auto;
+}
